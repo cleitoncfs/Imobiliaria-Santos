@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    font-family: Tahoma;
+}
+
+/* === Estilos globais === */
+.secao {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.paragrafo {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 28px;
+    margin: 10px auto;
+    max-width: 980px; /* Ajuste a largura máxima para telas maiores */
+}
+
+/* ===  1ª seção === */
+.topo {
+    background-color: #afddfb;
+}
+
+.topo img {
+    width: 150px;
+}
+
+.paragrafo-topo {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.link-topo {
+    color: #1d1d1d;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 10px;
+    border-bottom: 2px solid #1d1d1d;
+}
+
+.link-topo:hover{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+/* ===  2ª seção === */
+.banner {
+    padding-top: 0;
+    margin-top: 50px;
+}
+
+/* ===  estilos para destaques === */
+
+span {
+    font-weight: bold;
+}
+
+/* ===  3ª seção === */
+h1 {
+    color: #1d1d1d;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-weight: normal;
+    color: #1c81c0;
+    margin-top: 0;
+}
+
+.imagem {
+    width: 450px;
+}
+
+.texto-azul {
+    color: #1d80c1;
+}
+
+/* ===  4ª seção === */
+.servicos, .contato {
+    background-color: #1d80c1;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.paragrafo-servicos {
+    color: #ffffff;
+    line-height: 42px;
+    width: 700px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.texto-amarelo {
+    color: #fff81b;
+}
+
+.lista-servicos {
+    width: 135px;
+    margin: 40px auto 40px;
+}
+
+.item-lista-servicos {
+    font-size: 22px;
+    line-height: 42px;
+    text-align: left;
+    color: #fff;
+}
+
+/* ===  6ª seção === */
+.paragrafo-contato {
+    color: #fff;
+    background-color: #1d1d1d;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.lista-contato {
+    width: 210px;
+    list-style: none;
+    margin: 40px auto 40px;
+}
+
+.item-lista-contato {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.link-contato {
+    background-color: #1d1d1d;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+/* Estilo para ícones das redes sociais */
+.redes-sociais {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.redes-sociais a {
+    color: #1d1d1d;
+    margin-right: 10px;
+}
+
+.redes-sociais a:hover {
+    color: #fff;
+}
+
+/* Estilos para botão Voltar ao Topo */
+#btnVoltarAoTopo {
+    display: none; /* Inicialmente escondido */
+    position: fixed; /* Fixa na tela */
+    bottom: 20px; /* Distância do bottom */
+    right: 30px; /* Distância da direita */
+    z-index: 99; /* Para ficar acima de outros elementos */
+    background-color: #1d1d1d; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Sem borda */
+    outline: none; /* Sem contorno ao focar */
+    cursor: pointer; /* Cursor apontando */
+    padding: 15px; /* Espaçamento interno */
+    border-radius: 4px; /* Borda arredondada */
+}
+
+#btnVoltarAoTopo:hover {
+    background-color: #555; /* Cor de fundo ao passar o mouse */
+}
+
+/* Media Query para telas menores */
+@media only screen and (max-width: 768px) {
+    .paragrafo {
+        width: 90%; /* Ajuste a largura do texto para telas menores */
+    }
+
+    .topo img {
+        width: 120px; /* Reduza o tamanho do logo para telas menores */
+    }
+}
